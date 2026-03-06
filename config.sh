@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+LOCK_FILE="/tmp/cluster_monitor.lock"
+
 # ===== NODE CONFIGURATION =====
 MASTER_NODE="gu-k8s-master"
 WORKER_NODE="gu-k8s-worker"
